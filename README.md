@@ -1,9 +1,9 @@
 # Experiment-2--Implementation-of-Perceptron
-##AIM:
+## AIM:
 
 To implement a perceptron for classification using Python
 
-EQUIPMENTS REQUIRED:
+### EQUIPMENTS REQUIRED:
 Hardware – PCs
 Anaconda – Python 3.7 Installation / Google Colab /Jupiter Notebook
 
@@ -23,7 +23,7 @@ A threshold function, usually Heaviside or sign functions, maps the scalar value
 Indeed if the neuron output is exactly zero it cannot be assumed that the sample belongs to the first sample since it lies on the boundary between the two classes. Nonetheless for the sake of simplicity,ignore this situation.
 
 
-ALGORITHM:
+### ALGORITHM:
 Importing the libraries
 Importing the dataset
 Plot the data to verify the linear separable dataset and consider only two classes
@@ -188,7 +188,7 @@ plot_decision_regions(x_test, y_test)
 
 ![op2](https://user-images.githubusercontent.com/93427201/193381462-606873b6-b4b5-4a1e-aa0f-d3452a590c1d.png)
 
-Result:
+### Result:
 Thus,a perceptron for classification using Python is executed successfully
 
 
